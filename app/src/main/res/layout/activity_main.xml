@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<RelativeLayout 
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.contactcard.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pic"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:background="#FFFDFDFD"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:padding="16dp"
+        android:id="@+id/textView1"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:text="Adress: Jämeräntaival 6 B 104, Espoo, Finland"
+        android:textSize="18dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:text="Email: anastasiia.karpenko@aalto.fi"
+        android:textSize="18dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:background="#e0e0e0"
+        android:padding="16dp"
+        android:id="@+id/textView4"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView4"
+        android:background="#e0e0e0"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="I am searching for thesis project in Android app development."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16sp"/>
+
+
+
+</RelativeLayout>
+    </ScrollView>
